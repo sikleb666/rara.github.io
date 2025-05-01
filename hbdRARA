@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ultramen buat Kamu! 💻</title>
+    <style>
+        body {
+            background: black;
+            color: lime;
+            font-family: monospace;
+            text-align: center;
+            padding: 50px;
+        }
+        .cake {
+            font-size: 50px;
+            margin: 20px;
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 HAPPY BIRTHDAY! 🎉</h1>
+    <div class="cake">🎂</div>
+    <p>System.out.println("<span class="blink">You're awesome!</span>");</p>
+    <p>>_ Birthday.exe --run --happiness=100%</p>
+</body>
+</html>
